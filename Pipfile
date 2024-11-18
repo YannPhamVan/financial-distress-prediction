@@ -12,6 +12,7 @@ jupyter = "*"
 flask = "*"
 waitress = "*"
 matplotlib = "*"
+xgboost = "*"
 
 [dev-packages]
 
