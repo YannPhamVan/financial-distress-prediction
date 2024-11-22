@@ -64,7 +64,10 @@ docker run -it --rm -p 9696:9696 bankruptcy
 
 ## Cloud Deployment
 
-The service has been deployed on AWS Elastic Beanstalk and tested:
+The service has been deployed on AWS Elastic Beanstalk and tested with an adapted script:
+   ```bash
+   python predict-test-aws-cloud.py
+   ```
 
 1. ![Elastic Beanstalk Environnement creation](Images/create-env-on-elasticbeanstalk.png)
 
