@@ -65,10 +65,14 @@ docker run -it --rm -p 9696:9696 bankruptcy
 ## Cloud Deployment
 
 The service has been deployed on AWS Elastic Beanstalk and tested:
+
 1. ![Elastic Beanstalk Environnement creation](Images/create-env-on-elasticbeanstalk.png)
+
 2. ![Monitoring the instance](Images/monitoring-elasticbeanstalk.png)
+
 3. ![Listing the events](Images/events-elasticbeanstalk.png)
-**4. ![Testing a company](Images/predicting-aws-with-elasticbeanstalk.png)**
+
+4. ![Testing a company](Images/predicting-aws-with-elasticbeanstalk.png)
 
 ## Reproducibility
 
