@@ -77,6 +77,8 @@ The service has been deployed on AWS Elastic Beanstalk and tested with an adapte
 
 4. ![Testing a company](Images/predicting-aws-with-elasticbeanstalk.png)
 
+The AWS instance is now closed but if you need to test it (for example as a peer reviewer), please contact me on [LinkedIn](https://www.linkedin.com/in/chasseur2valeurs/).
+
 ## Reproducibility
 
 To reproduce this project:
