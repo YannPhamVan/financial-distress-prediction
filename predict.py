@@ -8,6 +8,7 @@ with open('model.bin', 'rb') as f_in:
 
 app = Flask('financial-distress')
 
+
 @app.route('/predict', methods=['POST'])
 def predict():
     company = request.get_json()
@@ -21,6 +22,7 @@ def predict():
         'bankrupt': bool(bankrupt)
     }
     return jsonify(result)
+
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=9696)
